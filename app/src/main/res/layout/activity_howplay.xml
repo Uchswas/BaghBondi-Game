@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_howplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.linkonruhul.baghbondigame.howplay"
+    android:background="@drawable/how"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.A Deer can move either in 4 ways ( Left, right, top and bottom ) position. \n
+2.	When pressing on a Deer all the adjacency node/place of the Deer will be shown as green color.\n
+3.	Then the Deer can move to any of the green marked nodes.\n
+4.	Deer can move from one node to other once at a time. \n
+5.	If you press on a Deer, you can press on another Deer to move that deer if you do not move the previous one.\n
+6.	A Deer can not eat theTiger or jump over the Tiger.
+7.	A Deer can not jump over another Deers. \n
+8.	If the Deers can stop the movement of Tiger or the Tiger got stuck cannot move then the Deer will win \n \n
+9.	Tiger can jump over Deer to eat them. \n
+10.	Tiger can eat Deer or not if he wish. After eating if the remainig Deers are less than 4 then Tiger will win.
+
+"
+        android:textSize="20dp"
+        />
+
+
+
+
+</RelativeLayout>
